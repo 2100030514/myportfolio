@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Chay Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">SVS</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">SUNKARA V S S CHAITANYA</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('#')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/sunkara-v-s-s-chaitanya-2a6195248/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/2100030514'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">𝒜𝒷𝑜𝓊𝓉 𝑀𝑒
+      </h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p><br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <br>
+              <p>B-tech Bachelors Degree<br /></p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              With a strong foundation in advanced computing concepts and practical problem-solving skills from my Computer Science (Honours) studies at KL University, I have developed expertise in programming, algorithms, data structures, and software development. Actively participating in coding competitions, hackathons, and technical workshops has honed my analytical and collaborative abilities. Passionate about emerging technologies, I am eager to apply my knowledge to real-world challenges and contribute to cutting-edge projects. Committed to continuous learning and proactive problem-solving, I am confident in my ability to thrive in dynamic and challenging environments.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">𝐸𝓍𝓅𝑒𝓇𝒾𝑒𝓃𝒸𝑒</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SASS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="certifications">
+      <p class="section__text__p1">My Professional</p>
+      <h1 class="title">𝑀𝓎 𝒞𝑒𝓇𝓉𝒾𝒻𝒾𝒸𝒶𝓉𝒾𝑜𝓃𝓈
+      </h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets\Screenshot 2024-06-03 101619.png"
+                alt="Certification 1"
+                class="certification-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Red Hat EX-183</h2>
+            <p>RedHat Team, Mar 24 , 2024</p>
+            <br>
+            <button class="btn btn-color-2 profile-btn" onclick="location.href='https://www.credly.com/badges/718882d2-6866-421e-a034-8cea596502f3/public_url'">
+              Visit Profile
+            </button>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets\aws-certified-cloud-practitioner.png"
+                alt="Certification 2"
+                class="certification-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">AWS Cloud Practioner</h2>
+            <p>Amazon, Oct 25 2023</p>
+            <button class="btn btn-color-2 profile-btn" onclick="location.href='https://www.credly.com/badges/f58e97b0-53f5-4164-8ba6-075e6bfc072c/public_url'">
+              Visit Profile
+            </button>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets\sas-statistical-business-analyst-professional-certi.png"
+                alt="Certification 3"
+                class="certification-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">sas statistical business analyst</h2>
+            <p>Coursera, Nov 24 2023</p>
+            <button class="btn btn-color-2 profile-btn" onclick="location.href='https://www.credly.com/badges/2ccdac5b-6376-4797-bddd-ec087cf5f441/public_url'">
+              Visit Profile
+            </button>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    
+    <section id="profiles">
+      <p class="section__text__p1">Connect with Me</p>
+      <h1 class="title">𝒫𝓇𝑜𝒻𝒾𝓁𝑒𝓈</h1>
+      <div class="profiles-container">
+        <div class="profile-card">
+          <img src="assets/LeetCode_logo_black.png" alt="LeetCode" class="profile-img" />
+          <h2>LeetCode</h2>
+          <h3>2100030514</h3>
+          <!-- Red color dots for difficulty level -->
+          <div class="stars">
+            <img src="assets/—Pngtree—star png vector icon ui_8528046.png" alt="Star" class="star-icon" />
+            <img src="assets/—Pngtree—star png vector icon ui_8528046.png" alt="Star" class="star-icon" />
+            <img src="assets/—Pngtree—star png vector icon ui_8528046.png" alt="Star" class="star-icon" />
+            <img src="assets/—Pngtree—star png vector icon ui_8528046.png" alt="Star" class="star-icon" />
+          </div>
+          <div class="stars">
+            
+            <div class="red-dot"></div>
+            <div class="red-dot"></div>
+            <div class="red-dot"></div>
+            <div class="red-dot"></div>
+            <div class="red-dot"></div>
+          </div>
+          <!-- Visit Button -->
+          <button class="btn btn-color-2 profile-btn" onclick="location.href='https://leetcode.com/u/2100030514/'">
+            Visit Profile
+          </button>
+        </div>
+        <div class="profile-card">
+          <img src="assets/th (3).jpg" alt="HackerRank" class="profile-img" />
+          <h2>HackerRank</h2>
+          <h3>KL_2100030514</h3>
+          <div class="stars">
+            <img src="assets/—Pngtree—star png vector icon ui_8528046.png" alt="Star" class="star-icon" />
+            <img src="assets/—Pngtree—star png vector icon ui_8528046.png" alt="Star" class="star-icon" />
+            <img src="assets/—Pngtree—star png vector icon ui_8528046.png" alt="Star" class="star-icon" />
+            <img src="assets/—Pngtree—star png vector icon ui_8528046.png" alt="Star" class="star-icon" />
+          </div>
+          <div class="stars">
+            
+            <div class="red-dot"></div>
+            <div class="red-dot"></div>
+            <div class="red-dot"></div>
+            <div class="red-dot"></div>
+          </div>
+          <button class="btn btn-color-2 profile-btn" onclick="location.href='https://www.hackerrank.com/profile/kl_2100030514'">
+            Visit Profile
+          </button>
+        </div>
+        <div class="profile-card">
+          <img src="assets/github.png" alt="GitHub" class="profile-img" />
+          <h2>GitHub</h2>
+          <h3>2100030514</h3>
+          <div class="stars">
+            <img src="assets/—Pngtree—star png vector icon ui_8528046.png" alt="Star" class="star-icon" />
+            <img src="assets/—Pngtree—star png vector icon ui_8528046.png" alt="Star" class="star-icon" />
+            <img src="assets/—Pngtree—star png vector icon ui_8528046.png" alt="Star" class="star-icon" />
+            <img src="assets/—Pngtree—star png vector icon ui_8528046.png" alt="Star" class="star-icon" />
+            <img src="assets/—Pngtree—star png vector icon ui_8528046.png" alt="Star" class="star-icon" />
+          </div>
+          <div class="stars">
+            
+            <div class="red-dot"></div>
+            <div class="red-dot"></div>
+            <div class="red-dot"></div>
+            <div class="red-dot"></div>
+            <div class="red-dot"></div>
+
+          </div>
+          <button class="btn btn-color-2 profile-btn" onclick="location.href='https://github.com/2100030514'">
+            Visit Profile
+          </button>
+        </div>
+        
+      </div>
+      <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    
+    <section id="projects">
+
+
+
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">𝒫𝓇𝑜𝒿𝑒𝒸𝓉𝓈</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/th (2).jpg" alt="Project 1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">ꜱᴄʜᴏᴏʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ꜱʏꜱᴛᴇᴍ
+            </h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/2100030514/spvnerp.git'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://spvnerp.pythonanywhere.com/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/19209.jpg" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">​🇪​​🇲​​🇵​​🇱​​🇴​​🇾​​🇪​​🇪​ ​🇲​​🇦​​🇳​​🇦​​🇬​​🇪​​🇲​​🇪​​🇳​​🇹​ ​🇸​​🇾​​🇸​​🇹​​🇪​​🇲​
+            </h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/2100030514/Employee-Consultancy-System.git'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/19198822.jpg" alt="Project 3" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">ʙɪᴅᴅɪɴɢ ꜱʏꜱᴛᴇᴍ ᴜꜱɪɴɢ ᴇɴᴛᴇʀᴘʀɪꜱᴇ ᴘʀᴏɢʀᴀᴍᴍɪɴɢ
+            </h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Github
+              </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">𝒞𝑜𝓃𝓉𝒶𝒸𝓉 𝑀𝑒
+      </h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">svschaitanya9989@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/sunkara-v-s-s-chaitanya-2a6195248/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 CHAITANYA. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
